@@ -4,12 +4,12 @@
  * main - print the string in the put function
  *
  * Description: using the main function
- * this program prints "programing is like building a multilingual puzzle
+ * this program prints "Programming is like building a multilingual puzzle
  * Return: 0
  */
 int main(void)
 {
-	puts("\"programming is likevuilfing a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
 
