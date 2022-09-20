@@ -3,6 +3,7 @@
 /**
  * puts2 - prints every other char
  * @str: a pointer given by the main function
+ *
  * Return: 0
  */
 
@@ -12,9 +13,8 @@ void puts2(char *str)
 
 	while (str[counter] != '\0')
 	{
-	if (counter % 2 == 0)
-		
-		putchar(str[counter]);
+		if (counter % 2 == 0)
+			putchar(str[counter]);
 		counter++;
 	}
 	putchar(10);
