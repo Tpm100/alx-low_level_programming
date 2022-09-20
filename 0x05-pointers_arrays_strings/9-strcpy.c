@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _stropy - copy pasting string
+ * _strcpy - copy pasting string
  * @dest: destination
  * @src: source
  *
@@ -17,6 +17,7 @@ char *_strcpy(char *dest, char *src)
 		inc++;
 	}
 	*(dest + inc) = '\0';
+
 
 	return (dest);
 }	
