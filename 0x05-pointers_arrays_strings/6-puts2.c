@@ -2,20 +2,20 @@
 
 /**
  * puts2 - prints every other char
- * @str: a pointer given by the main function
+ * @str: string
  *
- * Return: 0
+ * Return: nothing
  */
 
 void puts2(char *str)
 {
-	int counter = 0;
+	int i = 0;
 
-	while (str[counter] != '\0')
+	while (*(str + i) != '\0')
 	{
-		if (counter % 2 == 0)
-			putchar(str[counter]);
-		counter++;
+		if (i % 2 == 0)
+			putchar(*(str + i));
+		i++;
 	}
 	putchar(10);
 }
