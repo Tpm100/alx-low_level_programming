@@ -4,7 +4,7 @@
  *
  * Return: x10 a-z
  */
-void print _alphabet_x10(void)
+void print_alphabet_x10(void)
 {
 	char alpha, co;
 	co = 0;
