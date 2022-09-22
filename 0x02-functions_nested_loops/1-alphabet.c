@@ -2,10 +2,10 @@
 /**
  * print_alphabet - function to print abc
  *
- * Return: 0
+ * Return: Always 0 (success)
  */
 void print_alphabet(void)
-{	 
+{
 	char alpha;
 	for (alpha = 'a'; alpha <= 'z'; alpha++)
 	{
@@ -13,4 +13,3 @@ void print_alphabet(void)
 	}
 	_putchar('\n');
 }
-
