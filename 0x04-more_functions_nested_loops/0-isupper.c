@@ -1,12 +1,22 @@
-#include <unistd.h>
+#include "main.h"
+#include <ctype.h>
 /**
- * _putchar - writes the character c to stdout
- * @c: The character to print
+ * _isupper - function that checks for alphabetical character
  *
- * Return: On success 1.
- * On error, -1 is returned, and errno is set appropriately.
+ * @c: return char type
+ *
+ * Return: return 0 on success and 1 on fail
  */
-int _putchar(char c)
+int _isupper(int c)
 {
-	return (write(1, &c, 1));
+	int i = isupper(int c);
+
+	if (i > 0)
+	{
+		return (1);
+	}
+	else
+	{
+		return (0);
+	}
 }
