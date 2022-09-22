@@ -8,12 +8,16 @@
 void times_table(void)
 {
 	int rone, cone, d;
+
 	for (rone = 0; rone <= 9; rone++)
+
 	{
 		_putchar('0');
 		_putchar(',');
-		_putchar(' ');
-	for (cone = 1; cone <= 9; cone++)	
+		_putchar(' 'i);
+
+	for (cone = 1; cone <= 9; cone++)
+
 	{
 		d = (rone * cone);
 	 	if ((d / 10) > 10)
@@ -33,4 +37,4 @@ void times_table(void)
 		}
 		_putchar('\n');
 	}
-}	
+}
